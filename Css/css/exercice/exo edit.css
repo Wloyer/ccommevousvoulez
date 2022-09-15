@@ -1,0 +1,51 @@
+html,body{
+    margin: 0;
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    /* background-image: url("../images/Spacebackground.png.jpg"); */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0eb1d2 ;
+}
+nav ul{
+    display: flex;
+}
+.navbar a,.footer a{
+    padding-right: 5px;
+}
+nav ul, nav ul a, a{
+    list-style: none;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex: 1 0;
+    background-color: lightseagreen;
+}
+
+section {
+    align-content: center;
+}
+article {
+    margin-left: 10px;
+}
+
+aside{
+    flex: none;
+    width: 250px;
+    background-color: grey;
+}
+footer {
+    height: 40px;
+    margin-top: auto;
+    flex: none;
+    background-color: lightgrey;
+}

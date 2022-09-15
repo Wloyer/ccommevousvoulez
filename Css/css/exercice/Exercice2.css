@@ -1,0 +1,52 @@
+
+body{
+    background-color: whitesmoke;
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    display:flex;
+    justify-content: center;
+} 
+nav{
+    display: flex;
+    align-items: center;
+}  
+form{
+    display: flex;
+    justify-content: flex-start;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+ul{
+    
+}
+#titre{
+    justify-content:center;
+    display:flex;
+
+}
+main{
+    display: flex;
+    justify-content: flex-start;
+}  
+#article1{
+    background-color: aqua;
+    color:purple;
+    height: 300px;
+}
+#article2{
+    background-color: gold;
+    color:lime;
+    height:300px;
+}
+aside{
+     align-items: flex-end;
+    background-color: greenyellow;
+}  
+footer{
+    background-color: blueviolet;
+    height: 250px;
+}

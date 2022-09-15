@@ -1,0 +1,49 @@
+p{
+    color:red;
+}
+.para-red{
+    color:red;
+    width: calc(100%/3);/*divide trois paragraphe par 100% pour les recadrer*/
+    margin:0;
+}
+.para-green{/*.pour apeller une classe*/
+    color: #00ff00;
+    background-color:#f00;
+}
+.para-aqua{
+    color:rgba(0, 0, 0,1);/* le a de rgba pour geré la transparence*/
+}
+p[class="para-aqua"]{/* va prendre uniquement les p qui on l'attribue para-aqua*/
+    background-color:black;
+}
+h2{
+    color:rgba(51, 252, 255,0.5)
+}
+#para-first{
+    color:orange;/* le id passe avant la classe pour id on met #*/
+}
+p[lang=""]{/*il est ossible de prendre une classe pret existante et de l'utilisé pour modifier un txt*/
+    color:purple;
+}
+a:link{/*pseudo class qui permet du prendre les mot lien*/
+    color:yellow;
+}
+a:visited{/*pour changer la couleur des lien deja visité visited est une pseudo class*/
+    color:gray;
+}
+a:hover{/*pour quand tu survole un lien qu'il change de couleur*/
+    color:orange;
+    background-color: #f00;
+}
+span[lang="en"]{
+    color:white;
+    background-color:black;
+}
+span[lang="es"]{
+    color:red;
+    background-color:black;
+}
+span[lang="fr"]{
+    color:blue;
+    background-color:red;
+}

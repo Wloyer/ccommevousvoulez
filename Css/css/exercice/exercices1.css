@@ -1,0 +1,29 @@
+body{
+    font-size: 2vw;
+    margin:5cm;
+}
+h1 ,h2 {
+    text-align: center;
+}
+h1{
+    color:aqua;
+    font-size: 6vw;
+}
+#titre1{
+    color:blue;
+}
+#red, h2, h3{
+    color:red;
+}
+em{
+    color:gray;
+}
+strong{
+    color:green;
+}
+h4{
+    color:purple
+}
+span{
+    color:yellow
+}

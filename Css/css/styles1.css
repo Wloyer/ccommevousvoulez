@@ -1,0 +1,5 @@
+@import url("styles2.css");/*importation de styles2.css depuis styles1*/
+
+h1{
+    color: blue;
+}
